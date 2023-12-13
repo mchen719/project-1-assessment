@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    font-size: 80px;
+  }
+  
+  .screen {
+    text-align: center;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    width: 75px;
+    height: 42px;
+    text-align: center;
+  }
+
+  button {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 70px;
+    height: 70px;
+    background-color: #A9A9A9;
+    color: white;
+  }
+  
+  button, input {
+    padding: 10px; 
+    font-size: 40px; 
+    border: 5px solid #A9A9A9;
+    border-radius: 10px;
+  }
+
+  button:hover{
+    background-color: white;
+    color: #A9A9A9;
+  }
+
+  input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button { 
+            -webkit-appearance: none; 
+            margin: 0; 
+        } 
