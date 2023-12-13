@@ -24,7 +24,7 @@ function add() {
         outPut.style.color = "red"
         outPut.innerText = num
     } else {
-        outPut.style.color = "black"
+        outPut.style.color = "white"
         outPut.innerText = num
     }
 }
@@ -37,7 +37,7 @@ function minus() {
         outPut.style.color = "red"
         outPut.innerText = num
     } else {
-        outPut.style.color = "black"
+        outPut.style.color = "white"
         outPut.innerText = num
     }
 }

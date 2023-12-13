@@ -1,7 +1,9 @@
 body, html {
     margin: 0;
     padding: 0;
-  }
+    background-image: url("https://media2.giphy.com/media/GmXMpIy7yhlD2/giphy.gif?cid=ecf05e47q3zc2las9hs3myu15fuqhndpk47kfujn6a3uw1t7&ep=v1_gifs_search&rid=giphy.gif&ct=g"); 
+    background-size: cover;
+}
   
   section {
     display: flex;
@@ -10,6 +12,7 @@ body, html {
     align-items: center;
     height: 100vh; 
     font-size: 80px;
+    color: white;
   }
   
   .screen {
